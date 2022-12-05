@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgba(255, 0, 255, .90);
+    background-image: url("imgs/bg.jpg");
+    object-fit: contain;
+    background-blend-mode:difference;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+    cursor: url("n.cur"), url("mouse.cur"), auto;
+}
+
+.centre {
+    padding: 50px 30% 200px 30%;
+}
+
+.fire {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    text-indent: 50px;
+    line-height: 1.5;
+    
+}
+highlight {
+    background-color: black;
+}
+
+.box {
+    border: 2px solid rgb(0, 255, 255);
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .30);
+    
+}
+
+h1 {
+    padding-top: 100px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .centre {
+        padding: 0px 10% 200px 10%;
+    }
+  }
