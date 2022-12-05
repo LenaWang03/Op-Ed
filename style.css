@@ -8,6 +8,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size:large;
     cursor: url("cursor/n.cur"), url("cursor/mouse.cur"), auto;
+    text-align: center;
 }
 
 .centre {
